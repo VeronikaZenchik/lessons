@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+section {
+  background: #eff2f9;
+  min-height: 100vh;
+}
+
+.card {
+  width: 1170px;
+  min-height: 800px;
+  padding: 60px 0 70px;
+  box-shadow: 20px 20px 40px 0 rgba(81, 91, 117, 0.25);
+  background: #fff;
+}
+
+.product-img-block {
+  border-right: 2px solid rgba(20, 20, 20, 0.15);
+  width: 540px;
+}
+
+.preview {
+  width: 80px;
+  height: 80px;
+}
+
+.selected {
+  box-shadow: 8px 8px 16px 0 rgba(81, 91, 117, 0.25);
+  background: #fff;
+}
+
+.product-info-block {
+  padding: 0 60px;
+}
+
+.main-title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  letter-spacing: 0.01em;
+  color: rgba(20, 20, 20, 0.9);
+  }
+
+.subtitle{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  color: rgba(20, 20, 20, 0.4);
+}
+
+.text {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
+  color: rgba(20, 20, 20, 0.7);
+}
+
+.title {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: rgba(20, 20, 20, 0.4);
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px 0 rgba(81, 91, 117, 0.25);
+}
+
+.blue {
+  background-color: #013c7d;
+}
+
+.green {
+  background-color: #63cba7;
+}
+
+.red {
+  background-color: #d52f29;
+}
+
+.black {
+  background-color: #141414;
+}
+
+.yellow {
+  background-color: #f2c723;
+}
+
+li.selected {
+  width: 30px;
+  height: 30px;
+  padding: 7px;
+  border-radius: 100%;
+  fill: #fff;
+  box-shadow: 2px 2px 6px 0 rgba(81, 91, 117, 0.25);
+}
+
+.quantity {
+  width: 80px;
+  border: none;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: rgba(20, 20, 20, 0.8);
+  appearance: none;
+  background-image: url('./assets/images/Vector.svg');
+  background-repeat: no-repeat;
+  background-position: right 0 top 50%;
+}
+
+.price {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: rgba(20, 20, 20, 0.8);
+}
+
+.btn {
+  width: 510px;
+  height: 70px;
+  background: #141414;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #fff;
+}
