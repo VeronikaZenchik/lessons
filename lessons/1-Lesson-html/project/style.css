@@ -83,7 +83,7 @@ section {
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  box-shadow: 2px 2px 4px 0 rgba(81, 91, 117, 0.25);
+  filter: drop-shadow(2px 2px 4px rgba(81, 91, 117, 0.25));
 }
 
 .blue {
